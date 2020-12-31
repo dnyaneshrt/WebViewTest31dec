@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/et1_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:padding="5dp"
+            android:background="@drawable/edit_text_bg"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_baseline_search_24"
+            />
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.84"
+        android:id="@+id/webview"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.09"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/btn_facebook"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:layout_margin="7dp"
+            android:background="@drawable/facebook"
+            />
+        <ImageButton
+            android:id="@+id/btn_instagram"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:layout_margin="7dp"
+            android:background="@drawable/instagram"
+            />
+        <ImageButton
+            android:id="@+id/btn_twitter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:layout_margin="7dp"
+            android:background="@drawable/twitter"
+            />
+        <ImageButton
+            android:id="@+id/btn_google"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:layout_margin="7dp"
+            android:background="@drawable/google"
+            />
+        <ImageButton
+            android:id="@+id/btn_youtube"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:layout_margin="7dp"
+            android:background="@drawable/youtube"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
